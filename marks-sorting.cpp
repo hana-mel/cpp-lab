@@ -27,6 +27,7 @@ void student::disp()
     cout<<"Name: "<<name<<endl;
     cout<<"Roll number: "<<roll_no<<endl;
     cout<<"Marks: "<<marks<<endl;
+    cout<<endl;
 }
 
 int main()
