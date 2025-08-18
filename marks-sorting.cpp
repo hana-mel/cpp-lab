@@ -36,7 +36,7 @@ int main()
     student s[100];
     cout<<"How many students?"<<endl;
     cin>>n;
-    for(int i = 0;i < n;i++)
+    for(i = 0;i < n;i++)
     {
         s[i].read();
     }
@@ -53,7 +53,7 @@ int main()
         }
     }
     cout<<"Student details: "<<endl;
-    for(int i = 0;i < n;i++)
+    for(i = 0;i < n;i++)
     {
         s[i].disp();
     }
