@@ -1,16 +1,30 @@
 #include <iostream>
 using namespace std;
 
-template <class temp>  
-temp add(temp a, temp b)
+template<class temp>
+class calc
 {
-    return a + b;
-}
+    double a,b;
+public:
+    void read()
+    {
+        cout<<"Enter any value of a and b:"<<endl;
+        cin>>a>>b;
+    }
+    temp addn()
+    {
+        return a+b;
+    }
+    void disp()
+    {
+        cout<<"Sum is: "<<addn();
+    }
+};
 
 int main()
 {
-    cout<<"two number: "<<add(5,7)<<endl;
-    cout<<"two decimals: "<<add(1.5,2.5)<<endl;
+    calc<double>obj;
+    obj.read();
+    obj.disp();
     return 0;
 }
-
